@@ -78,7 +78,8 @@ int getSum(int myArray[]){
 /*Youhak*/
 void printGroupMemberNames() {
     printf(" Sokrattanak Utdorm Em\n ");
+    printf("Lyhour Sovann\n");
     printf("Sengkhun Lim\n ");
     printf("Youhak Seng\n ");
-    printf("Lyhour Sovann\n");
+
 }
