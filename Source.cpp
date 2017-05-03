@@ -33,16 +33,6 @@ int main(void) {
 
     return 1;
 }
-
-/*Sengkhun Lim*/
-int subtractAllValues(int myArray[]) {
-    int result = 0;
-    for (int i = 0; i < 500; i++) {
-        result -= myArray[i];
-    }
-    return result;
-}
-
 /*Sengkhun Lim & Youhak Seng*/
 float invertAllValues(int myArray[]) {
     float invert = 0;
@@ -52,6 +42,15 @@ float invertAllValues(int myArray[]) {
         
     }
     return 0;
+}
+
+/*Sengkhun Lim*/
+int subtractAllValues(int myArray[]) {
+    int result = 0;
+    for (int i = 0; i < 500; i++) {
+        result -= myArray[i];
+    }
+    return result;
 }
 
 /*Sokrattanak Utdorm Em*/
