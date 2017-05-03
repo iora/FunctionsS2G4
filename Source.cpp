@@ -18,45 +18,48 @@ void printGroupMemberNames();
 
 int main(void) {
     printGroupMemberNames();
+    printf("\n");
 
     int row[500];
-    for (int i = 0; i < 500; i++){
+    for (int i = 0; i < 500; i++) {
         row[i] = i;
     }
-    
-//    printAsChars(row);
-//    getSumOfSquares(row);
-    
+
+    printAsChars(row);
+    printf("\n");
+    getSumOfSquares(row);
+
     return 1;
 }
 
-
-int subtractAllValues(int myArray[]){
+int subtractAllValues(int myArray[]) {
     int result;
 }
 
+/*Sokrattanak Utdorm Em*/
 void printAsChars(int myArray[]) {
-    for(int i = 0; i < 500; i++) {
-        printf("%c", myArray[i]);
+    for (int i = 0; i < 500; i++) {
+        printf("%c ", myArray[i]);
     }
     printf("\n");
 }
 
+/*Sokrattanak Utdorm Em*/
 int getSumOfSquares(int myArray[]) {
     int expo = 1;
     int sumOfSquare = 0;
-    for(int i = 0; i < 500; i++) {
-        expo = myArray[i]*myArray[i];
-        sumOfSquare+=expo;
+    for (int i = 0; i < 500; i++) {
+        expo = myArray[i] * myArray[i];
+        sumOfSquare += expo;
     }
-    printf("\nThe sum of square is: %i\n",sumOfSquare);
+    printf("\nThe sum of square is: %i\n", sumOfSquare);
     return sumOfSquare;
 }
 
-
+/*Youhak*/
 void printGroupMemberNames() {
-    printf("Sokrattanak Utdorm Em\n ");
+    printf(" Sokrattanak Utdorm Em\n ");
     printf("Sengkhun Lim\n ");
-    printf("Name3\n ");
-    printf("That's it!\n");
+    printf("Youhak Seng\n ");
+    printf("Lyhour Sovann\n");
 }
