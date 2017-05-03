@@ -55,7 +55,7 @@ int getSumOfSquares(int myArray[]) {
 
 
 void printGroupMemberNames() {
-    printf("Sengkhun Lim\n ");
+    printf("Sokrattanak Utdorm Em\n ");
     printf("Sokrattanak Utdorm Em\n ");
     printf("Name3\n ");
     printf("That's it!\n");
