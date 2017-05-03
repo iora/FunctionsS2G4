@@ -24,6 +24,9 @@ int main(void) {
 	return 1;
 }
 
+int subtractAllValues(int myArray[]){
+    int result;
+}
 
 
 
