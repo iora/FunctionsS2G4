@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*	
+/*
  *	Please define your functions after main().
  *	You can import standard C / C++ libraries.
  *	Recommended: add description of your code.
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> 32f708e20853f90f0fe59a2b1c2ed0c28e0ba98b
  */
 
 int getSum(int myArray[]);
@@ -27,6 +31,8 @@ int main(void) {
     printAsChars(row);
     printf("\nThe sum of square is: %i\n", getSumOfSquares(row));
     printf("\nSubtract All Values: %d\n", subtractAllValues(row));
+    printf("\nThe sum of array: %d\n", getSum(row));
+
 
     return 1;
 }
@@ -42,7 +48,7 @@ int subtractAllValues(int myArray[]) {
 
 /*Sengkhun Lim*/
 float invertAllValues(int myArray[]) {
-    
+
 }
 
 /*Sokrattanak Utdorm Em*/
@@ -62,6 +68,14 @@ int getSumOfSquares(int myArray[]) {
         sumOfSquare += expo;
     }
     return sumOfSquare;
+}
+/*youhak*/
+int getSum(int myArray[]){
+    int sum = 0;
+    for (int i = 0; i <500 ; ++i) {
+        sum =+ myArray[i];
+    }
+    return sum;
 }
 
 /*Youhak*/
