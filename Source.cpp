@@ -28,6 +28,7 @@ int main(void) {
     printf("\nThe sum of square is: %i\n", getSumOfSquares(row));
     printf("\nSubtract All Values: %d\n", subtractAllValues(row));
     printf("\nThe sum of array: %d\n", getSum(row));
+    printf("\nInvert values of array: %f\n",invertAllValues(row));
 
 
     return 1;
@@ -42,9 +43,14 @@ int subtractAllValues(int myArray[]) {
     return result;
 }
 
-/*Sengkhun Lim*/
+/*Sengkhun Lim & Youhak Seng*/
 float invertAllValues(int myArray[]) {
-
+    float invert = 0;
+    for (int i=0;i<500;++i){
+        invert = 1/myArray[i];
+        myArray[i] = invert;
+    }
+    return 0;
 }
 
 /*Sokrattanak Utdorm Em*/
