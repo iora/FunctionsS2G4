@@ -5,10 +5,6 @@
  *	Please define your functions after main().
  *	You can import standard C / C++ libraries.
  *	Recommended: add description of your code.
-<<<<<<< HEAD
-=======
- *
->>>>>>> 32f708e20853f90f0fe59a2b1c2ed0c28e0ba98b
  */
 
 int getSum(int myArray[]);
@@ -82,6 +78,6 @@ int getSum(int myArray[]){
 void printGroupMemberNames() {
     printf(" Sokrattanak Utdorm Em\n ");
     printf("Sengkhun Lim\n ");
-    printf("Youhak Seng\n ");
     printf("Lyhour Sovann\n");
+    printf("Youhak Seng\n ");
 }
