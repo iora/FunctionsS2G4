@@ -81,6 +81,18 @@ int getSum(int myArray[]){
     return sum;
 }
 
+/*Lyhour*/
+double getAverage(int[] myArray) {
+    double result = 0;
+    int i;
+    for (i = 0; i < 500; i++) 
+        result += myArray[i];
+    return result/500;
+    }
+
+    
+}//end of getAverage
+
 /*Youhak*/
 void printGroupMemberNames() {
     printf(" Sokrattanak Utdorm Em\n ");
