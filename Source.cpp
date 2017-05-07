@@ -28,8 +28,8 @@ int main(void) {
     printf("\nThe sum of square is: %i\n", getSumOfSquares(row));
     printf("\nSubtract All Values: %d\n", subtractAllValues(row));
     printf("\nThe sum of array: %d\n", getSum(row));
-    printf("\nInvert values of array: %f\n",invertAllValues(row));
-
+    printf("\nInvert values of array: %f\n", invertAllValues(row));
+    printf("\nThe average is: %f\n", getAverage(row));
 
     return 1;
 }
@@ -46,10 +46,10 @@ int subtractAllValues(int myArray[]) {
 /*Sengkhun Lim & Youhak Seng*/
 float invertAllValues(int myArray[]) {
     float invert = 0;
-    for (int i=0;i<500;++i){
-        invert = 1/myArray[i];
+    for (int i = 0; i < 500; ++i) {
+        invert = 1 / myArray[i];
         myArray[i] = invert;
-        
+
     }
     return 0;
 }
@@ -72,25 +72,24 @@ int getSumOfSquares(int myArray[]) {
     }
     return sumOfSquare;
 }
+
 /*youhak*/
-int getSum(int myArray[]){
+int getSum(int myArray[]) {
     int sum = 0;
-    for (int i = 0; i <500 ; ++i) {
-        sum =+ myArray[i];
+    for (int i = 0; i < 500; ++i) {
+        sum = +myArray[i];
     }
     return sum;
 }
 
 /*Lyhour*/
-double getAverage(int[] myArray) {
+double getAverage(int myArray[]) {
     double result = 0;
     int i;
-    for (i = 0; i < 500; i++) 
+    for (i = 0; i < 500; i++) {
         result += myArray[i];
-    return result/500;
     }
-
-    
+    return result / 500;
 }//end of getAverage
 
 /*Youhak*/
