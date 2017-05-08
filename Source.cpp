@@ -47,11 +47,9 @@ int subtractAllValues(int myArray[]) {
 float invertAllValues(int myArray[]) {
     float invert = 0;
     for (int i = 0; i < 500; ++i) {
-        invert = 1 / myArray[i];
-        myArray[i] = invert;
-
+        invert += 1 / myArray[i];
     }
-    return 0;
+    return invert;
 }
 
 /*Sokrattanak Utdorm Em*/
